@@ -1,0 +1,44 @@
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+<script lang="JavaScript">
+var s, a, s2, s3;
+
+s2=0;
+s3=0;
+
+for (s=1; s<=20; ++s)
+{
+for (a=1; a<=10; ++a)
+{
+if (s2<16)
+{
+document.write(s,"x",a," = ",a*s,".............................");
+++s2;
+++s3;
+if (s3==4)
+{
+document.write("<br>");
+ s3=0;
+}
+}
+else
+{
+s2=0;
+document.write("<br>");
+document.write(s,"x",a," = ",s*a,".............................");
+++s2;
+++s3;
+if (s3==4)
+{
+document.write("<br>");
+s3=0;
+}
+}         
+}
+}
+</script>
+</body>
+</html>

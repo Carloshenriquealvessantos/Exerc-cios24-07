@@ -1,0 +1,36 @@
+<html>
+<body>
+<head>
+</head>
+<script lang="JavaScript">
+var var1, var2, var3, var4, resu;
+do
+{
+var1 = parseFloat(window.prompt("Informe o valor da primeira média: "));
+}
+ while (isNaN(var1));
+
+do
+{
+var2 = parseFloat(window.prompt("Informe o valor da segunda média: "));
+}
+ while (isNaN(var2));
+ 
+ do
+{
+var3 = parseFloat(window.prompt("Informe o valor da terceira média: "));
+}
+ while (isNaN(var3));
+
+ do
+{
+var4 = parseFloat(window.prompt("Informe o valor da quarta média: "));
+}
+ while (isNaN(var4));
+ 
+ resu = (var1 + var2 + var3 + var4)/ 4
+ 
+ document.write("O Resultado da média é de : "+ resu);
+</script>
+</body>
+</html>

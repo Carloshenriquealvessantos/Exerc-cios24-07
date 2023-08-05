@@ -1,0 +1,33 @@
+<html>
+<body>
+<head>
+</head>
+<script lang="JavaScript">
+var va1, va2;
+do
+{
+va1 = parseFloat(window.prompt("Informe o primeiro número : "));
+}
+ while (isNaN(va1));
+
+ do
+{
+va2 = parseFloat(window.prompt("Informe o segundo número: "));
+}
+ while (isNaN(va2));
+
+ if (va1 == va2)
+ { 
+ document.write("Os números são identicos.")
+ }
+ if (va1 > va2)
+{
+document.write("O primeiro número é maior que o primeiro")
+}
+ if (va1 < va2)
+{
+ document.write("O segundo número é maior que o segundo.")
+}
+</script>
+</body>
+</html>

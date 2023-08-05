@@ -1,0 +1,37 @@
+<html>
+<body>
+<head>
+</head>
+<script lang="JavaScript">
+var va1, va2, va3, resu;
+do
+{
+va1 = parseFloat(window.prompt("Informe a primeira nota da P1: "));
+}
+ while (isNaN(va1));
+
+ do
+{
+va2 = parseFloat(window.prompt("Informe a nota da P2: "));
+}
+ while (isNaN(va2));
+
+ do
+{
+va3 = parseFloat(window.prompt("Informe a segunda nota da P2: "));
+}
+ while (isNaN(va3));
+
+ resu = (va1 + va2 + va3) / 3
+
+ if (resu >= 6)
+ {
+ document.write("Voce está aprovado.")
+ }
+ else
+ {
+ document.write("Voce está reprovado.")
+ }
+</script>
+</body>
+</html>

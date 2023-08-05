@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+
+<body>
+<script lang="JavaScript">
+
+var al, pe, re;
+
+do
+{
+pe = parseFloat(window.prompt("Informe o seu peso (em KG): "));
+}
+ while (isNaN(pe));
+
+ do
+{
+al = parseFloat(window.prompt("Informe a sua altura(em Metros): "));
+}
+ while (isNaN(al));
+
+ re = pe / Math.pow(al, 2);
+
+
+ if (re >=20 && re<25)
+ {
+ document.write("Voce está com peso ideal.")
+ }
+ else if (re < 20)
+ {
+ document.write("Voce está abaixo do peso.")
+ }
+ else if (re >= 25)
+ {
+ document.write("Voce está acima do peso.")
+ }
+ 
+</script>
+</body>
+</html>

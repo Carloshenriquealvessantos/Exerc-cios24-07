@@ -1,0 +1,38 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio15</title>
+</head>
+<body>
+    <script>
+        var va1, va2;
+
+        do
+        {
+            va1 = parseFloat(window.prompt("Informe o primeiro número"));
+        }
+        while(isNaN(va1))
+
+        do
+        {
+            va2 = parseFloat(window.prompt("Informe o segundo número"));
+        }
+        while(isNaN(va2))
+
+        do
+
+        {
+            if (va2<=va1)
+
+            {
+                va2 = window.prompt("Número dois é menor que número um. Informe o segundo número novamente.");
+            }
+
+        }
+        while(va2<=va1)
+        if (va2>va1)
+        {
+            document.write(va2, " > ", va1);
+        }
+    </script>
+</body>

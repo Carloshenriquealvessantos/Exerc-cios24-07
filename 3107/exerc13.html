@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+<script lang="JavaScript">
+
+var n1, n2, n3, v1;
+
+n1 = parseFloat(window.prompt("Informe um valor: "));
+
+n2= parseFloat(window.prompt("Informe outro valor: "));
+
+n3= parseFloat(window.prompt("Informe o ultimo valor: "));
+
+if (n1+n2>n3 & n1+n3>n2 & n2+n3>n1)
+{
+v1=1;
+}
+if(v1==1)
+{
+if (n1==n2 & n2==n3)
+{
+document.write("Equilátero");
+}
+else if (n1==n2 || n2==n3 || n1==n3)
+{
+document.write("Isósceles");
+}
+else
+{
+document.write("Escaleno");
+}
+}
+else
+{
+ document.write("Não forma um triangulo.")
+}
+</script>
+</body>
+</html>
